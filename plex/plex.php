@@ -34,7 +34,7 @@ class Plex {
                 if($this->genre == $movie->Genre['tag']) {
                     echo "<tr>";
                     echo "<td>";
-                    echo "<img src='http://".$this->ipaddress.":32400".$movie['thumb']."?X-Plex-Token=".$this->token."' height='150' />";
+                    echo "<img src='https://".$this->ipaddress.":32400".$movie['thumb']."?X-Plex-Token=".$this->token."' height='150' />";
                     echo "</td>";
                     echo "<td>";
                     echo "<h3>".$movie['title']."</h3>";
